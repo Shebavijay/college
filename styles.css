@@ -1,0 +1,178 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f8ff; /* Light Blue Background */
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #4caf50; /* Green */
+    color: #fff;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffeb3b; /* Yellow Hover Effect */
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #4caf50, #81c784); /* Green Gradient */
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  section#about {
+    background-color: #fff3e0; /* Light Orange */
+  }
+  
+  section#courses {
+    background-color: #e3f2fd; /* Light Blue */
+  }
+  
+  section#contact {
+    background-color: #f1f8e9; /* Light Green */
+  }
+  
+  section h2 {
+    margin-bottom: 15px;
+    color: #4caf50; /* Green */
+    font-size: 28px;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  section ul li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  section ul li a {
+    color: #4caf50; /* Green Links */
+    text-decoration: none;
+  }
+  
+  section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #2e7d32; /* Dark Green */
+    color: #fff;
+  }
+  
+  footer a {
+    color: #ffeb3b; /* Yellow Links */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Floating Home Button */
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4caf50; /* Green Background */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px; /* Circular button look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: background 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .floating-button:hover {
+    background: #388e3c; /* Darker Green on Hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    header nav ul li {
+      margin: 5px 0;
+    }
+  
+    .hero h1 {
+      font-size: 36px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    .floating-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
